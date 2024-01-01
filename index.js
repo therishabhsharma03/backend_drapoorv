@@ -8,7 +8,7 @@ config();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors()) ; 
 const userEmail = process.env.EMAIL_USER;
 const userPassword = process.env.EMAIL_PASS; // Add this line
 
